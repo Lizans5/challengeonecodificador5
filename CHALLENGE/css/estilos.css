@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  background-color: rgb(152, 150, 150);
+}
+body {
+  display: flex;
+  padding-top: 40px;
+}
+div {
+  width: 80%;
+  padding: auto;
+  margin: auto;
+  background-color: rgb(152, 150, 150);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+}
+div header {
+  width: 95%;
+  background-color: rgb(198, 194, 194);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 450px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+div section {
+  width: 50%;
+  background-color: rgb(227, 224, 224);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#txt_ingresado {
+  width: 80%;
+  height: 300px;
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+#btn_encriptar {
+  width: 20%;
+  height: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#btn_encriptar:hover {
+  background-color: aquamarine;
+}
+
+#btn_desencriptar {
+  width: 20%;
+  height: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#btn_desencriptar:hover {
+  background-color: aquamarine;
+}
+
+div aside {
+  width: 45%;
+  background-color: rgb(227, 224, 224);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#txt_resultado {
+  width: 90%;
+  height: 200px;
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#btn_copiar {
+  width: 20%;
+  height: 40px;
+  display: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+#btn_copiar:hover {
+  background-color: aquamarine;
+}
+
+/**/
